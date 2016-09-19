@@ -1,9 +1,33 @@
-$maCouleur: black;
+$couleur: black;
+$couleur2 :white;
+$couleur3: #ee9c0e;
 $tailleback: 100%;
+$left : 40%;
+
 
 body {
-
- 	background-color: $maCouleur;
+ 	background-color: $couleur;
 	background-size: $tailleback; 
 }
+#menu{
+	list-style-type: none;
+    margin-left: $left;
+    padding: 0;
+	li{
+		float: left;
+    	border-right:1px solid $couleur2;
+	a{ 	
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	&:hover {
+    	color: $couleur3;
+    }
+	}
 
+		
+	}
+
+}

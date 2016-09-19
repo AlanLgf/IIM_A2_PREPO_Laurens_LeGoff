@@ -2,3 +2,23 @@ body {
   background-color: black;
   background-size: 100%;
 }
+
+#menu {
+  list-style-type: none;
+  margin-left: 40%;
+  padding: 0;
+}
+#menu li {
+  float: left;
+  border-right: 1px solid white;
+}
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#menu li a:hover {
+  color: #ee9c0e;
+}
