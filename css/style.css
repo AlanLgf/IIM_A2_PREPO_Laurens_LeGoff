@@ -1,0 +1,134 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+}
+
+body form {
+  position: relative;
+  margin: 50px auto;
+  width: 380px;
+  height: auto;
+}
+
+body form h2 {
+  color: #ee9c0e;
+  margin-left: 12px;
+  margin-top: 200px;
+}
+
+body form input {
+  padding: 16px;
+  border-radius: 7px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  margin: 15px;
+  width: 300px;
+  color: white;
+  font-size: 18px;
+  height: 54px;
+}
+
+body form input:focus {
+  outline-color: transparent;
+  background: rgba(255, 255, 255, 0.95);
+  color: #ee9c0e;
+}
+
+body form button {
+  float: right;
+  height: 260px;
+  width: 50px;
+  border: 0px;
+  background: #ee9c0e;
+  border-radius: 7px;
+  padding: 10px;
+  color: white;
+  font-size: 22px;
+}
+
+body .inputUserIcon {
+  position: absolute;
+  top: 68px;
+  right: 80px;
+  color: white;
+}
+
+body .inputPassIcon {
+  position: absolute;
+  top: 136px;
+  right: 80px;
+  color: white;
+}
+
+body input::-webkit-input-placeholder {
+  color: white;
+}
+
+body input:focus::-webkit-input-placeholder {
+  color: #ee9c0e;
+}
+
+body .footer {
+  margin-top: 300px;
+}
+
+body .trait {
+  background-color: #ee9c0e;
+  width: 1550px;
+  height: 1px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+body p {
+  font-size: 8px;
+  color: white;
+  position: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+body .reseau_sociaux {
+  position: center;
+  margin: 50px;
+}
+
+body .facebook {
+  position: center;
+  margin: 1%;
+  display: inline;
+  margin-left: 10%;
+}
+
+body .twitter {
+  display: inline;
+}
+
+body .facebook:hover {
+  opacity: 0.5;
+}
+
+body .twitter:hover {
+  opacity: 0.5;
+}
+
+body .center {
+  position: center;
+}
