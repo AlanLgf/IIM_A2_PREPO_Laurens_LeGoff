@@ -14,23 +14,29 @@
 }
 
 
-
-
-
 $bg_couleur: #222222;
+
 $couleur_inscription : #ee9c0e;
+
+$white: #FFFFFF;
+
+@mixin taille($height, $width){
+	height: $height;
+	width: $width;
+}
 
 
 
 body{
 
 		background-color: $bg_couleur;
+		background-image: url(img/swot-classes.jpeg);
+    	background-repeat:no-repeat;
 
 		form {
 		  position:relative;
 		  margin: 50px auto;
-		  width: 380px;
-		  height: auto;
+		  @include taille(auto,380px);
 
 			 h2 {
 			 color:$couleur_inscription ;
@@ -46,11 +52,10 @@ body{
 			  border:0px;
 			  background: rgba(255,255,255,.2);
 			  display: block;
-			  margin: 15px;
-			  width: 300px;  
-			  color:white;
+			  margin: 15px;  
+			  color:$white;
 			  font-size:18px;
-			  height: 54px;
+			  @include taille(54px,300px);
 
 				&:focus {
 				  outline-color: rgba(0,0,0,0);
@@ -61,14 +66,13 @@ body{
 
 			button {
 			  float:right;
-			  height: 260px;
-			  width: 50px;
 			  border: 0px;
 			  background: $couleur_inscription;
 			  border-radius:7px;
 			  padding: 10px;
 			  color:white;
 			  font-size:22px;
+			  @include taille(260px,50px);
 			}
 
 		}
@@ -77,19 +81,19 @@ body{
 		  position:absolute;
 		  top:68px;
 		  right: 80px;
-		  color:white;
+		  color:$white;
 		}
 
 		.inputPassIcon {
 		  position:absolute;
 		  top:136px;
 		  right: 80px;
-		  color:white;
+		  color:$white;
 		}
 
 
 		input::-webkit-input-placeholder {
-		  color: white;
+		  color: $white;
 		}
 
 		input:focus::-webkit-input-placeholder {
@@ -103,19 +107,18 @@ body{
 
 		.trait{
 			background-color:  $couleur_inscription;
-			width: 1550px;
-			height: 1px;
 			margin-left: 180px;
 			margin-right: 180px;
 			margin-bottom: 20px;
 			margin-top: 50px;
+			@include taille(1px,1550px);
 			
 		}
 
 
 		p{
 		font-size: 8px;
-		color: white;
+		color: $white;
 		position: center;
 		margin-left: 200px;
 		margin-right: 200px;
@@ -133,24 +136,20 @@ body{
 			    margin: 1%;
 			    display: inline;
 			    margin-left: 10%;
+			    	&:hover{
+			    	opacity: 0.5;
+					}
 			}
 			.twitter{
-
 			    display: inline;
-			}
-
-
-			.facebook:hover{
-			    opacity: 0.5;
-			}
-			.twitter:hover{
-			    opacity: 0.5;
+				    &:hover{
+				    opacity: 0.5;
+					}
 			}
 
 		.center{
 			position: center;
 		}
-
 
 }
 

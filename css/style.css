@@ -14,13 +14,15 @@
 
 body {
   background-color: #222222;
+  background-image: url(img/swot-classes.jpeg);
+  background-repeat: no-repeat;
 }
 
 body form {
   position: relative;
   margin: 50px auto;
-  width: 380px;
   height: auto;
+  width: 380px;
 }
 
 body form h2 {
@@ -36,10 +38,10 @@ body form input {
   background: rgba(255, 255, 255, 0.2);
   display: block;
   margin: 15px;
-  width: 300px;
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
   height: 54px;
+  width: 300px;
 }
 
 body form input:focus {
@@ -50,32 +52,32 @@ body form input:focus {
 
 body form button {
   float: right;
-  height: 260px;
-  width: 50px;
   border: 0px;
   background: #ee9c0e;
   border-radius: 7px;
   padding: 10px;
   color: white;
   font-size: 22px;
+  height: 260px;
+  width: 50px;
 }
 
 body .inputUserIcon {
   position: absolute;
   top: 68px;
   right: 80px;
-  color: white;
+  color: #FFFFFF;
 }
 
 body .inputPassIcon {
   position: absolute;
   top: 136px;
   right: 80px;
-  color: white;
+  color: #FFFFFF;
 }
 
 body input::-webkit-input-placeholder {
-  color: white;
+  color: #FFFFFF;
 }
 
 body input:focus::-webkit-input-placeholder {
@@ -88,17 +90,17 @@ body .footer {
 
 body .trait {
   background-color: #ee9c0e;
-  width: 1550px;
-  height: 1px;
   margin-left: 180px;
   margin-right: 180px;
   margin-bottom: 20px;
   margin-top: 50px;
+  height: 1px;
+  width: 1550px;
 }
 
 body p {
   font-size: 8px;
-  color: white;
+  color: #FFFFFF;
   position: center;
   margin-left: 200px;
   margin-right: 200px;
@@ -117,12 +119,12 @@ body .facebook {
   margin-left: 10%;
 }
 
-body .twitter {
-  display: inline;
-}
-
 body .facebook:hover {
   opacity: 0.5;
+}
+
+body .twitter {
+  display: inline;
 }
 
 body .twitter:hover {
