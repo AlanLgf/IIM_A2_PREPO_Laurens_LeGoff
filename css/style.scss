@@ -3,31 +3,64 @@ $couleur2 :white;
 $couleur3: #ee9c0e;
 $tailleback: 100%;
 $left : 40%;
-
+$carre : 1px;
+$float:left;
+$espace : 100px;
+$centre : 40px 30%;
 
 body {
  	background-color: $couleur;
 	background-size: $tailleback; 
+}
+
+h1{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 100px;
 }
 #menu{
 	list-style-type: none;
     margin-left: $left;
     padding: 0;
 	li{
-		float: left;
-    	border-right:1px solid $couleur2;
+		float: $float;
+    	border-right:1px solid $couleur3;
 	a{ 	
 		display: block;
-		color: white;
-		text-align: center;
-		padding: 14px 16px;
+		color: $couleur2;
+		padding: 14px 18px;
 		text-decoration: none;
+		font-size: 22px;
 	&:hover {
     	color: $couleur3;
-    }
+  		transform: scale(1.25);
+    		}
+	 }
+	 }
+}
+#container{
+	list-style-type: none;
+	height: 400px;
+	width:800px;
+	border:$carre solid $couleur3;
+	margin: $centre;
+	display : block;
+	float: $float;
+	border-radius: $carre;
+		.titre{
+			font-size: 25px;
+			color: $couleur2;
+			text-align: center;
+			text-decoration: underline;
+			padding-top: 10px;
+			&:hover{
+				color:$couleur3;
+			}
+		}
+	p{
+		font-size: 18px;
+		color:$couleur2;
+		text-align: center;
 	}
-
-		
-	}
-
 }
