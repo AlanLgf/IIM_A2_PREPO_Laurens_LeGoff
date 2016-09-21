@@ -25,6 +25,11 @@ $white: #FFFFFF;
 	width: $width;
 }
 
+@font-face {
+    font-family: "Ma_Super_Fonte";
+    src: url('Starjout.ttf');
+}
+
 
 body{
 
@@ -129,6 +134,11 @@ body{
 
 		.footer{
 			margin-top: 300px;
+
+			p{
+				margin-left: 200px;
+				margin-right: 200px;
+			}
 		}
 
 
@@ -147,8 +157,6 @@ body{
 		font-size: 8px;
 		color: $white;
 		position: center;
-		margin-left: 200px;
-		margin-right: 200px;
 		text-align: center;
 		}
 
@@ -180,44 +188,81 @@ body{
 
 }
 
-		#slide1, #slide2, #slide3 {
-			height: 1000px;
-			padding-top:100px;
+		
+
+		.visuel{
+			position: absolute;
+			margin-top: 25px;
+			margin-left: 150px;
+			.nom_classe{
+				margin-left: -750px;
+				margin-top: -50px;
+				p{
+				font-size: 30px;
+				color: $couleur_inscription;
+				font-family:  "Ma_Super_Fonte";
+				}
+			
+			}	
 		}
-
-		#slide1 {
-			background:url(img/image1.jpg) center 0 no-repeat fixed;	
-		}
-
-		#slide2 {
-			background: url(img/image2.jpg) center 0 no-repeat fixed;
-		}
-
-		#slide3 {
-			background: url(img/classes_all.jpg) center 0 no-repeat fixed;
-		}
-
-
-		/* Gestion du contenu */
+		
 		.slide_inside {
 			width: 980px;
 			margin: 0 auto;
 		}
 
-		#slide1  .slide_inside {
+
+		#slide1 {
+			height: 800px;
+			padding-top:200px;
+			background:url(img/classes_all.jpg) center 0 no-repeat fixed;
+
+			 .slide_inside {
 			text-align:center;
+    		font-family:  "Ma_Super_Fonte";
+    		font-size: 75px;
+    		color: $couleur_inscription;
+    		background-color: rgba(0, 0, 0, 0.8);
+		}
+	
 		}
 
-		#slide2 .slide_inside p {
-			width: 500px;
-			text-align:justify;
+		#slide2 {
+			height: 300px;
+			padding-top:100px;
+			background: url(img/republique.png) center 0 no-repeat;
 		}
 
-		#slide3 .slide_inside {
-			background-color: rgba(0, 0, 0, 0.5);
-			margin-top:50px;
-			padding:50px;
+		#slide3 {
+			height: 500px;
+			background: url(img/bleu.png) center 0 no-repeat ;
+
+			.slide_inside {
+			background-color: rgba(0, 0, 0, 0.2);
+			border: solid;
+			border-color: $couleur_inscription;
+			border-radius: 20px;
+			padding-top:100px;
+			margin-top:150px;
+			padding:10px;
+			margin-left: 700px;
+			display: inline-block;
+				p{
+					font-size: 16px;
+					text-align: justify;
+				}
+			
+			}
+
+			
 		}
+
+
+
+		
+	
+
+		 
 
 
 
