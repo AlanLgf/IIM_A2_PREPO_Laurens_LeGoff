@@ -19,6 +19,8 @@ body {
 }
 
 .menu{
+	background-color: #D4D4DA;
+	margin-top: 20px;
 	list-style-type: none;
     padding: 0;
     padding-left: 12%;
@@ -42,6 +44,7 @@ body {
 	 }
 }
 .bloc{
+	margin-top: 40px;
 	list-style-type: none;
 	height: auto;
 	width:800px;
@@ -63,6 +66,31 @@ body {
 	p{
 		font-size: 18px;
 		color:$couleur2;
-		text-align: center;
+		@include marge (20px, 20px);
+		text-align:justify;
+	}
+	.button{
+	background-color:$couleur3 ;
+    border-radius:8px;
+    border: none;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 15px 15px;
+    margin-left: 650px;
+    cursor: pointer;
+    a{
+    	color: white;
+    }
+    &:hover{
+    	opacity: 0.6;
+    	background-color: $couleur2;
+    	a{
+    		color:$couleur3;
+    		text-shadow:  1px 1px #000000;
+    	}
+    }
 	}
 }
