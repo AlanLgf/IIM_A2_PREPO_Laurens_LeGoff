@@ -13,9 +13,24 @@
 }
 
 body {
-  background-color: #222222;
-  background-image: url(img/swot-classes.jpeg);
-  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+body .swtor_logo {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+}
+
+body .img_droite {
+  position: absolute;
+  margin-left: 1250px;
+}
+
+body .img_gauche {
+  position: absolute;
+  margin-left: 50px;
+  z-index: 1;
 }
 
 body form {
@@ -23,12 +38,22 @@ body form {
   margin: 50px auto;
   height: auto;
   width: 380px;
+  z-index: 2;
 }
 
 body form h2 {
   color: #ee9c0e;
   margin-left: 12px;
-  margin-top: 200px;
+  padding-top: 300px;
+}
+
+body form h4 {
+  color: #ee9c0e;
+  margin-left: 250px;
+}
+
+body form h4:hover {
+  opacity: 0.8;
 }
 
 body form input {
@@ -60,6 +85,10 @@ body form button {
   font-size: 22px;
   height: 260px;
   width: 50px;
+}
+
+body form button:hover {
+  opacity: 0.8;
 }
 
 body .inputUserIcon {

@@ -14,7 +14,7 @@
 }
 
 
-$bg_couleur: #222222;
+$bg_couleur: #000000;
 
 $couleur_inscription : #ee9c0e;
 
@@ -26,24 +26,47 @@ $white: #FFFFFF;
 }
 
 
-
 body{
 
 		background-color: $bg_couleur;
-		background-image: url(img/swot-classes.jpeg);
-    	background-repeat:no-repeat;
+
+		.swtor_logo{	
+		position: absolute;
+		text-align: center;
+		z-index: 2;
+		}
+
+
+		.img_droite{
+			position: absolute;
+			margin-left: 1250px;
+
+		}
+
+		.img_gauche{
+			position: absolute;
+			margin-left: 50px;
+			z-index: 1;
+		}
 
 		form {
+
 		  position:relative;
 		  margin: 50px auto;
 		  @include taille(auto,380px);
+		  z-index: 2;
 
 			 h2 {
 			 color:$couleur_inscription ;
 			 margin-left:12px;
-			 margin-top: 200px;
+			 padding-top: 300px;
+			}
 
-			
+			h4{
+			 color:$couleur_inscription ;
+			 margin-left:250px;
+			 	&:hover{
+			 		opacity: 0.8;			 	}
 			}
 
 			input {
@@ -73,6 +96,10 @@ body{
 			  color:white;
 			  font-size:22px;
 			  @include taille(260px,50px);
+
+			  &:hover{
+			  	opacity: 0.8;
+			  }
 			}
 
 		}
@@ -152,7 +179,6 @@ body{
 		}
 
 }
-
 
 
 
