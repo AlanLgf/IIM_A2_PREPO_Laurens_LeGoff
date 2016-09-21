@@ -3,17 +3,20 @@ body {
   background-size: 100%;
 }
 
+#container {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 h1 {
   color: white;
   font-size: 30px;
   margin-top: 100px;
-  margin-left: 30%;
   text-decoration: underline;
 }
 
 #menu {
   list-style-type: none;
-  margin-left: 40%;
   padding: 0;
 }
 #menu li {
@@ -32,29 +35,33 @@ h1 {
   transform: scale(1.25);
 }
 
-#bloc {
+.bloc {
   list-style-type: none;
   height: auto;
   width: 800px;
   border: 1px solid #ee9c0e;
-  margin: 30px 30%;
   display: block;
   float: left;
   border-radius: 1px;
 }
-#bloc .titre {
+.bloc h2 {
   font-size: 25px;
   color: white;
   text-align: center;
   text-decoration: underline;
   padding-top: 10px;
 }
-#bloc .titre:hover {
+.bloc h2:hover {
   color: #ee9c0e;
   transform: scale(1.25);
 }
-#bloc p {
+.bloc p {
   font-size: 18px;
   color: white;
   text-align: center;
+}
+
+#footer {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
