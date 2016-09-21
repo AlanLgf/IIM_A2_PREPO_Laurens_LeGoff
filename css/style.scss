@@ -9,29 +9,22 @@ $float:left;
 	margin-left: $left;
 	margin-right:$right;
 }
-@mixin hauteur($top, $bottom){
-	margin-top: $top;
-	margin-bottom: $bottom;
-}
-
 body {
  	background-color: $couleur;
 	background-size: $tailleband; 
 }
 
-#container{
-	@include marge(20%, 20%);
+.container{
+	@include marge(25%, 0);
 }
 
-h1{
-	color: white;
-	font-size: 30px;
-	margin-top: 100px;
-	text-decoration: underline;
-}
-#menu{
+.menu{
 	list-style-type: none;
     padding: 0;
+    padding-left: 12%;
+    li:first-child {
+    	border-left:1px solid $couleur3;
+    }
 	li{
 		float: $float;
     	border-right:1px solid $couleur3;
@@ -56,7 +49,7 @@ h1{
 	display : block;
 	float: $float;
 	border-radius: $carre;
-		h2{
+		h1{
 			font-size: 25px;
 			color: $couleur2;
 			text-align: center;
@@ -72,7 +65,4 @@ h1{
 		color:$couleur2;
 		text-align: center;
 	}
-}
-#footer{
-	@include hauteur(20px,0);
 }
