@@ -1,3 +1,6 @@
+/* ==========================================================================
+  						Mise en page
+   ========================================================================== */
 body {
   background-color: black;
   background-size: 100%;
@@ -5,7 +8,7 @@ body {
 
 .container {
   margin-left: 25%;
-  margin-right: 0;
+  margin-right: 25%;
 }
 
 .menu {
@@ -13,7 +16,7 @@ body {
   margin-top: 20px;
   list-style-type: none;
   padding: 0;
-  padding-left: 12%;
+  padding-left: 25%;
 }
 .menu li:first-child {
   border-left: 1px solid #ee9c0e;
@@ -34,8 +37,12 @@ body {
   transform: scale(1.25);
 }
 
+/* ==========================================================================
+						Page Accueil
+   ========================================================================== */
 .bloc {
   margin-top: 40px;
+  margin-left: 5%;
   list-style-type: none;
   height: auto;
   width: 800px;
@@ -85,4 +92,23 @@ body {
 .bloc .button:hover a {
   color: #ee9c0e;
   text-shadow: 1px 1px #000000;
+}
+
+/* ==========================================================================
+   						Page histoire
+   ========================================================================== */
+.sepa {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.img {
+  margin-left: 450px;
 }
