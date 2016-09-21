@@ -3,10 +3,11 @@ $couleur2 :white;
 $couleur3: #ee9c0e;
 $tailleback: 100%;
 $left : 40%;
+$right:30%;
 $carre : 1px;
 $float:left;
 $espace : 100px;
-$centre : 40px 30%;
+$centre : 30px 30%;
 
 body {
  	background-color: $couleur;
@@ -16,8 +17,9 @@ body {
 h1{
 	color: white;
 	font-size: 30px;
-	text-align: center;
 	margin-top: 100px;
+	margin-left:$right;
+	text-decoration: underline;
 }
 #menu{
 	list-style-type: none;
@@ -39,9 +41,9 @@ h1{
 	 }
 	 }
 }
-#container{
+#bloc{
 	list-style-type: none;
-	height: 400px;
+	height: auto;
 	width:800px;
 	border:$carre solid $couleur3;
 	margin: $centre;
@@ -56,6 +58,7 @@ h1{
 			padding-top: 10px;
 			&:hover{
 				color:$couleur3;
+				transform: scale(1.25);
 			}
 		}
 	p{

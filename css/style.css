@@ -6,8 +6,9 @@ body {
 h1 {
   color: white;
   font-size: 30px;
-  text-align: center;
   margin-top: 100px;
+  margin-left: 30%;
+  text-decoration: underline;
 }
 
 #menu {
@@ -31,27 +32,28 @@ h1 {
   transform: scale(1.25);
 }
 
-#container {
+#bloc {
   list-style-type: none;
-  height: 400px;
+  height: auto;
   width: 800px;
   border: 1px solid #ee9c0e;
-  margin: 40px 30%;
+  margin: 30px 30%;
   display: block;
   float: left;
   border-radius: 1px;
 }
-#container .titre {
+#bloc .titre {
   font-size: 25px;
   color: white;
   text-align: center;
   text-decoration: underline;
   padding-top: 10px;
 }
-#container .titre:hover {
+#bloc .titre:hover {
   color: #ee9c0e;
+  transform: scale(1.25);
 }
-#container p {
+#bloc p {
   font-size: 18px;
   color: white;
   text-align: center;
