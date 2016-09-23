@@ -123,9 +123,10 @@ body .footer {
 }
 
 body .footer p {
+  margin-top: 30px;
+  margin-bottom: 0px;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 30px;
 }
 
 body .footer2 {
@@ -133,17 +134,18 @@ body .footer2 {
 }
 
 body .footer2 p {
+  margin-top: 30px;
+  margin-bottom: 0px;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 30px;
 }
 
 body .trait {
   background-color: #ee9c0e;
+  margin-top: 50px;
+  margin-bottom: 20px;
   margin-left: 180px;
   margin-right: 180px;
-  margin-bottom: 20px;
-  margin-top: 50px;
   height: 1px;
   width: 1550px;
 }
@@ -192,12 +194,16 @@ body .twitter:hover {
 .visuel {
   position: absolute;
   margin-top: 25px;
+  margin-bottom: 0px;
   margin-left: 150px;
+  margin-right: 0px;
 }
 
 .visuel .nom_classe {
-  margin-left: -750px;
   margin-top: -50px;
+  margin-bottom: 0px;
+  margin-left: -750px;
+  margin-right: 0px;
 }
 
 .visuel .nom_classe p {
@@ -209,7 +215,9 @@ body .twitter:hover {
 .visuel1 {
   position: absolute;
   margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: -550px;
+  margin-right: 0px;
   -ms-transform: rotate(180deg);
   webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -273,10 +281,12 @@ body .twitter:hover {
   border-color: #ee9c0e;
   border-radius: 20px;
   padding-top: 100px;
-  margin-top: 150px;
   padding: 10px;
-  margin-left: 700px;
   display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-left: 700px;
+  margin-right: 0px;
 }
 
 #slide3 .slide_inside p {
@@ -298,10 +308,12 @@ body .twitter:hover {
   border-color: #ee9c0e;
   border-radius: 20px;
   padding-top: 100px;
-  margin-top: 150px;
   padding: 10px;
-  margin-left: 700px;
   display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-left: 700px;
+  margin-right: 0px;
   -ms-transform: rotate(180deg);
   webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -323,10 +335,12 @@ body .twitter:hover {
   border-color: #ee9c0e;
   border-radius: 20px;
   padding-top: 100px;
-  margin-top: 150px;
   padding: 10px;
-  margin-left: 700px;
   display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-left: 700px;
+  margin-right: 0px;
 }
 
 #slide5 .slide_inside p {
@@ -348,10 +362,12 @@ body .twitter:hover {
   border-color: #ee9c0e;
   border-radius: 20px;
   padding-top: 100px;
-  margin-top: 150px;
   padding: 10px;
-  margin-left: 700px;
   display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-left: 700px;
+  margin-right: 0px;
   -ms-transform: rotate(180deg);
   webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -399,7 +415,9 @@ body .twitter:hover {
 
 .bloc {
   margin-top: 40px;
+  margin-bottom: 0px;
   margin-left: 5%;
+  margin-right: 0px;
   list-style-type: none;
   height: auto;
   width: 800px;
@@ -459,9 +477,9 @@ body .twitter:hover {
 }
 
 .sepa {
-  display: block;
   height: auto;
   width: 100%;
+  display: block;
   margin-top: 150px;
 }
 
@@ -471,8 +489,10 @@ body .twitter:hover {
 }
 
 .row {
-  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 15px;
+  margin-right: 15px;
 }
 
 .img {
@@ -510,8 +530,8 @@ body .twitter:hover {
 
 #slide8 {
   height: 1000px;
-  background: url("img/sw.9.jpeg") center 0 no-repeat fixed;
   padding-top: 100px;
+  background: url("img/sw.9.jpeg") center 0 no-repeat fixed;
 }
 
 #slide8 .slide_inside {
@@ -529,9 +549,9 @@ body .twitter:hover {
 }
 
 #slide9 {
-  background: url("img/sw.jpg") center 0 no-repeat fixed;
   height: 1000px;
   padding-top: 100px;
+  background: url("img/sw.jpg") center 0 no-repeat fixed;
 }
 
 #slide9 .slide_inside {
