@@ -25,6 +25,11 @@ $white: #FFFFFF;
 	width: $width;
 }
 
+@font-face {
+    font-family: "Ma_Super_Fonte";
+    src: url('Starjout.ttf');
+}
+
 
 body{
 
@@ -128,7 +133,13 @@ body{
 		}
 
 		.footer{
-			margin-top: 300px;
+			margin-top: 100px;
+
+			p{
+				margin-left: 200px;
+				margin-right: 200px;
+				margin-top: 30px;
+			}
 		}
 
 
@@ -147,15 +158,24 @@ body{
 		font-size: 8px;
 		color: $white;
 		position: center;
-		margin-left: 200px;
-		margin-right: 200px;
 		text-align: center;
+		}
+
+		.logo{
+
+			display: inline-block;
+			float: right;
+			margin: 0 150px 10px 0;
+			img{
+				padding-left: 10px;
+			}
+
 		}
 
 
 		.reseau_sociaux{
-			position: center;
-			margin: 50px;
+			display: inline;
+			float: left;
 
 		}
 			.facebook{
@@ -174,11 +194,201 @@ body{
 					}
 			}
 
-		.center{
-			position: center;
+}
+
+		
+
+		.visuel{
+			position: absolute;
+			margin-top: 25px;
+			margin-left: 150px;
+			.nom_classe{
+				margin-left: -750px;
+				margin-top: -50px;
+				p{
+				font-size: 30px;
+				color: $couleur_inscription;
+				font-family:  "Ma_Super_Fonte";
+				}
+			
+			}	
 		}
 
-}
+		.visuel1{
+			position: absolute;
+			margin-top: 0px;
+			margin-left: -550px;
+			-ms-transform: rotate(180deg);
+    		webkit-transform: rotate(180deg); 
+    		transform: rotate(180deg);
+			.nom_classe{
+				margin-left: -750px;
+				margin-top: -50px;
+				p{
+				font-size: 30px;
+				color: $couleur_inscription;
+				font-family:  "Ma_Super_Fonte";
+				}
+			
+			}	
+		}
+		
+		.slide_inside {
+			width: 980px;
+			margin: 0 auto;
+		}
+
+
+		#slide1 {
+			height: 800px;
+			padding-top:200px;
+			background:url(img/classes_all.jpg) center 0 no-repeat fixed;
+
+			 .slide_inside {
+			text-align:center;
+    		font-family:  "Ma_Super_Fonte";
+    		font-size: 75px;
+    		color: $couleur_inscription;
+    		background-color: rgba(0, 0, 0, 0.8);
+		}
+	
+		}
+
+		#slide2 {
+			height: 300px;
+			padding-top:100px;
+			background: url(img/republique.png) center 0 no-repeat;
+		}
+
+		#slide7 {
+			height: 300px;
+			padding-top:100px;
+			background: url(img/empire.png) center 0 no-repeat;
+		}
+
+		#slide3 {
+			height: 500px;
+			background: url(img/bleu.png) center 0 no-repeat ;
+
+			.slide_inside {
+			background-color: rgba(0, 0, 0, 0.2);
+			border: solid;
+			border-color: $couleur_inscription;
+			border-radius: 20px;
+			padding-top:100px;
+			margin-top:150px;
+			padding:10px;
+			margin-left: 700px;
+			display: inline-block;
+				p{
+					font-size: 16px;
+					text-align: justify;
+				}
+			
+			}
+
+			
+		}
+
+
+		#slide4 {
+			height: 500px;
+			background: url(img/bleu.png) center 0 no-repeat ;
+			-ms-transform: rotate(180deg);
+    		webkit-transform: rotate(180deg); 
+    		transform: rotate(180deg);
+
+			.slide_inside {
+			background-color: rgba(0, 0, 0, 0.2);
+			border: solid;
+			border-color: $couleur_inscription;
+			border-radius: 20px;
+			padding-top:100px;
+			margin-top:150px;
+			padding:10px;
+			margin-left: 700px;
+			display: inline-block;
+			-ms-transform: rotate(180deg);
+    		webkit-transform: rotate(180deg); 
+    		transform: rotate(180deg);
+
+				p{
+					font-size: 16px;
+					text-align: justify;
+
+				}
+
+			}
+			
+			}
+
+		#slide5 {
+			height: 500px;
+			background: url(img/rouge.png) center 0 no-repeat ;
+
+			.slide_inside {
+			background-color: rgba(0, 0, 0, 0.2);
+			border: solid;
+			border-color: $couleur_inscription;
+			border-radius: 20px;
+			padding-top:100px;
+			margin-top:150px;
+			padding:10px;
+			margin-left: 700px;
+			display: inline-block;
+				p{
+					font-size: 16px;
+					text-align: justify;
+				}
+			
+			}
+
+			
+		}
+
+
+		#slide6 {
+			height: 500px;
+			background: url(img/rouge.png) center 0 no-repeat ;
+			-ms-transform: rotate(180deg);
+    		webkit-transform: rotate(180deg); 
+    		transform: rotate(180deg);
+
+			.slide_inside {
+			background-color: rgba(0, 0, 0, 0.2);
+			border: solid;
+			border-color: $couleur_inscription;
+			border-radius: 20px;
+			padding-top:100px;
+			margin-top:150px;
+			padding:10px;
+			margin-left: 700px;
+			display: inline-block;
+			-ms-transform: rotate(180deg);
+    		webkit-transform: rotate(180deg); 
+    		transform: rotate(180deg);
+
+				p{
+					font-size: 16px;
+					text-align: justify;
+
+				}
+
+			}
+			
+			}
+
+			
+
+
+
+
+		
+	
+
+		 
+
+
 
 
 
