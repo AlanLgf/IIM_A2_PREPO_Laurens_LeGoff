@@ -15,10 +15,14 @@
 
 
 $bg_couleur: #000000;
-
 $couleur_inscription : #ee9c0e;
-
 $white: #FFFFFF;
+$couleur: black;
+$couleur2 :white;
+$couleur3: #ee9c0e;
+$tailleband: 100%;
+$carre : 1px;
+$float:left;
 
 @mixin taille($height, $width){
 	height: $height;
@@ -28,6 +32,11 @@ $white: #FFFFFF;
 @font-face {
     font-family: "Ma_Super_Fonte";
     src: url('Starjout.ttf');
+}
+
+@mixin marge($left, $right){
+	margin-left: $left;
+	margin-right:$right;
 }
 
 
@@ -134,6 +143,16 @@ body{
 
 		.footer{
 			margin-top: 100px;
+
+			p{
+				margin-left: 200px;
+				margin-right: 200px;
+				margin-top: 30px;
+			}
+		}
+
+		.footer2{
+			margin-top: 1500px;
 
 			p{
 				margin-left: 200px;
@@ -260,6 +279,11 @@ body{
 			background: url(img/republique.png) center 0 no-repeat;
 		}
 
+		#slide10 {
+			height: 75px;
+			background-color: $bg_couleur;
+		}
+
 		#slide7 {
 			height: 300px;
 			padding-top:100px;
@@ -379,8 +403,164 @@ body{
 			}
 
 			
+.container{
+	@include marge(25%, 25%);
+}
 
+.menu{
+	background-color: #D4D4DA;
+	margin-top: 20px;
+	list-style-type: none;
+    padding: 0;
+    padding-left: 25%;
+    li:first-child {
+    	border-left:1px solid $couleur3;
+    }
+	li{
+		float: $float;
+    	border-right:1px solid $couleur3;
+	a{ 	
+		display: block;
+		color: $couleur2;
+		padding: 14px 18px;
+		text-decoration: none;
+		font-size: 22px;
+	&:hover {
+    	color: $couleur3;
+  		transform: scale(1.25);
+    		}
+	 }
+	 }
+}
 
+.bloc{
+	margin-top: 40px;
+	margin-left: 5%;
+	list-style-type: none;
+	height: auto;
+	width:800px;
+	border:$carre solid $couleur3;
+	display : block;
+	float: $float;
+	border-radius: $carre;
+		h1{
+			font-size: 25px;
+			color: $couleur2;
+			text-align: center;
+			text-decoration: underline;
+			padding-top: 10px;
+			&:hover{
+				color:$couleur3;
+				transform: scale(1.25);
+			}
+		}
+p{
+	font-size: 18px;
+	color:$couleur2;
+	@include marge (20px, 20px);
+	text-align:justify;
+	}
+.button{
+	background-color:$couleur3 ;
+    border-radius:8px;
+    border: none;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 15px 15px;
+    margin-left: 650px;
+    cursor: pointer;
+    a{
+    	color: white;
+    }
+    &:hover{
+    	opacity: 0.6;
+    	background-color: $couleur2;
+    	a{
+    		color:$couleur3;
+    		text-shadow:  1px 1px #000000;
+    	}
+    }
+	}
+}
+
+.sepa{
+   display: block;
+   height: auto;
+   width: 100%;
+   margin-top: 150px;
+   	p{
+   	color: $couleur2;
+    text-align: justify;
+   	}
+   }
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.img{
+	margin-left: 450px;
+}
+.bloc1{
+	display: inline-block;	
+	margin-bottom: 40px;
+	p{
+		float: left;
+		line-height:20px;
+		font-size: 18px;
+   }
+   img{
+		float: right;
+	}
+}
+.bloc2{
+	display: inline-block;
+	p{
+		float: right;
+		line-height:20px;
+		font-size: 18px;
+	}
+	img{
+		float: left;
+	}
+}
+
+#slide8{
+	 height: 1000px; 
+	 background: url("img/sw.9.jpeg") center 0 no-repeat fixed;
+	 padding-top: 100px;
+	 .slide_inside{
+	 width: 700px; 
+	 margin: 0 auto;
+ 	 background-color: rgba(0, 0, 0, 0.5);
+ 	 border-radius: 15px;
+ 	 padding: 10px 0 10px 0;
+ 	 p{
+ 	 	 text-align:center; 
+		 font-size: 20px;
+ 		 color: $couleur3;
+ 	  }
+	}
+}
+#slide9{
+	background: url("img/sw.jpg") center 0 no-repeat fixed;
+	height: 1000px; 
+	padding-top: 100px;
+  	.slide_inside{
+	 width: 700px; 
+	 margin: 0 auto; 
+ 	 background-color:  rgba(0, 0, 0, 0.5);
+ 	 border-radius: 15px;
+ 	 padding: 10px 0 10px 0;
+ 	p{ 
+ 	    font-size: 20px;
+  		text-align:center;
+ 	    color: $couleur3;
+ 	 }
+	}
+}
 
 
 		

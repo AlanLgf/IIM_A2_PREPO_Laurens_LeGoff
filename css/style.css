@@ -128,6 +128,16 @@ body .footer p {
   margin-top: 30px;
 }
 
+body .footer2 {
+  margin-top: 1500px;
+}
+
+body .footer2 p {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
 body .trait {
   background-color: #ee9c0e;
   margin-left: 180px;
@@ -241,6 +251,11 @@ body .twitter:hover {
   background: url(img/republique.png) center 0 no-repeat;
 }
 
+#slide10 {
+  height: 75px;
+  background-color: #000000;
+}
+
 #slide7 {
   height: 300px;
   padding-top: 100px;
@@ -345,4 +360,190 @@ body .twitter:hover {
 #slide6 .slide_inside p {
   font-size: 16px;
   text-align: justify;
+}
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.menu {
+  background-color: #D4D4DA;
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  padding-left: 25%;
+}
+
+.menu li:first-child {
+  border-left: 1px solid #ee9c0e;
+}
+
+.menu li {
+  float: left;
+  border-right: 1px solid #ee9c0e;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.menu li a:hover {
+  color: #ee9c0e;
+  transform: scale(1.25);
+}
+
+.bloc {
+  margin-top: 40px;
+  margin-left: 5%;
+  list-style-type: none;
+  height: auto;
+  width: 800px;
+  border: 1px solid #ee9c0e;
+  display: block;
+  float: left;
+  border-radius: 1px;
+}
+
+.bloc h1 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.bloc h1:hover {
+  color: #ee9c0e;
+  transform: scale(1.25);
+}
+
+.bloc p {
+  font-size: 18px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.bloc .button {
+  background-color: #ee9c0e;
+  border-radius: 8px;
+  border: none;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 15px 15px;
+  margin-left: 650px;
+  cursor: pointer;
+}
+
+.bloc .button a {
+  color: white;
+}
+
+.bloc .button:hover {
+  opacity: 0.6;
+  background-color: white;
+}
+
+.bloc .button:hover a {
+  color: #ee9c0e;
+  text-shadow: 1px 1px #000000;
+}
+
+.sepa {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.sepa p {
+  color: white;
+  text-align: justify;
+}
+
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.img {
+  margin-left: 450px;
+}
+
+.bloc1 {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.bloc1 p {
+  float: left;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.bloc1 img {
+  float: right;
+}
+
+.bloc2 {
+  display: inline-block;
+}
+
+.bloc2 p {
+  float: right;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.bloc2 img {
+  float: left;
+}
+
+#slide8 {
+  height: 1000px;
+  background: url("img/sw.9.jpeg") center 0 no-repeat fixed;
+  padding-top: 100px;
+}
+
+#slide8 .slide_inside {
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 10px 0 10px 0;
+}
+
+#slide8 .slide_inside p {
+  text-align: center;
+  font-size: 20px;
+  color: #ee9c0e;
+}
+
+#slide9 {
+  background: url("img/sw.jpg") center 0 no-repeat fixed;
+  height: 1000px;
+  padding-top: 100px;
+}
+
+#slide9 .slide_inside {
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 10px 0 10px 0;
+}
+
+#slide9 .slide_inside p {
+  font-size: 20px;
+  text-align: center;
+  color: #ee9c0e;
 }
