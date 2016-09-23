@@ -70,13 +70,13 @@ body {
 				transform: scale(1.25);
 			}
 		}
-	p{
-		font-size: 18px;
-		color:$couleur2;
-		@include marge (20px, 20px);
-		text-align:justify;
+p{
+	font-size: 18px;
+	color:$couleur2;
+	@include marge (20px, 20px);
+	text-align:justify;
 	}
-	.button{
+.button{
 	background-color:$couleur3 ;
     border-radius:8px;
     border: none;
@@ -104,16 +104,82 @@ body {
 /* ==========================================================================
    						Page histoire
    ========================================================================== */
-   .sepa{
-   	display: block;
-   	height: auto;
-   	width: 100%;
-   	margin-top: 150px;
+.sepa{
+   display: block;
+   height: auto;
+   width: 100%;
+   margin-top: 150px;
+   	p{
+   	color: $couleur2;
+    text-align: justify;
+   	}
    }
-   .row {
+.row {
   margin-right: 15px;
   margin-left: 15px;
 }
 .img{
 	margin-left: 450px;
+}
+.bloc1{
+	display: inline-block;	
+	margin-bottom: 40px;
+	p{
+		float: left;
+		line-height:20px;
+		font-size: 18px;
+   }
+   img{
+		float: right;
+	}
+}
+.bloc2{
+	display: inline-block;
+	p{
+		float: right;
+		line-height:20px;
+		font-size: 18px;
+	}
+	img{
+		float: left;
+	}
+}
+
+#slide1{
+	 height: 1000px; 
+	 background: url("img/sw.9.jpeg") center 0 no-repeat fixed;
+	 padding-top: 100px;
+	 .slide_inside{
+	 width: 700px; 
+	 margin: 0 auto;
+ 	 background-color: $couleur;
+ 	 opacity: 0.6;
+ 	 border-radius: 15px;
+ 	 padding: 10px 0 10px 0;
+ 	 p{
+ 	 	 text-align:center; 
+ 	 	 font-family: "Ma_Super_Fonte"; 
+		 font-size: 20px;
+ 		 color: $couleur3;
+ 	  }
+	}
+}
+#slide2{
+	background: url("img/sw.jpg") center 0 no-repeat fixed;
+	height: 1000px; 
+	padding-top: 100px;
+  	.slide_inside{
+	 width: 700px; 
+	 margin: 0 auto; 
+ 	 background-color: $couleur;
+ 	 opacity: 0.6;
+ 	 border-radius: 15px;
+ 	 padding: 10px 0 10px 0;
+ 	p{ 
+ 	    font-family: "Ma_Super_Fonte"; 
+ 	    font-size: 20px;
+  		text-align:center;
+ 	    color: $couleur3;
+ 	 }
+	}
 }

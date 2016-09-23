@@ -103,6 +103,10 @@ body {
   width: 100%;
   margin-top: 150px;
 }
+.sepa p {
+  color: white;
+  text-align: justify;
+}
 
 .row {
   margin-right: 15px;
@@ -111,4 +115,69 @@ body {
 
 .img {
   margin-left: 450px;
+}
+
+.bloc1 {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.bloc1 p {
+  float: left;
+  line-height: 20px;
+  font-size: 18px;
+}
+.bloc1 img {
+  float: right;
+}
+
+.bloc2 {
+  display: inline-block;
+}
+.bloc2 p {
+  float: right;
+  line-height: 20px;
+  font-size: 18px;
+}
+.bloc2 img {
+  float: left;
+}
+
+#slide1 {
+  height: 1000px;
+  background: url("img/sw.9.jpeg") center 0 no-repeat fixed;
+  padding-top: 100px;
+}
+#slide1 .slide_inside {
+  width: 700px;
+  margin: 0 auto;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 15px;
+  padding: 10px 0 10px 0;
+}
+#slide1 .slide_inside p {
+  text-align: center;
+  font-family: "Ma_Super_Fonte";
+  font-size: 20px;
+  color: #ee9c0e;
+}
+
+#slide2 {
+  background: url("img/sw.jpg") center 0 no-repeat fixed;
+  height: 1000px;
+  padding-top: 100px;
+}
+#slide2 .slide_inside {
+  width: 700px;
+  margin: 0 auto;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 15px;
+  padding: 10px 0 10px 0;
+}
+#slide2 .slide_inside p {
+  font-family: "Ma_Super_Fonte";
+  font-size: 20px;
+  text-align: center;
+  color: #ee9c0e;
 }
